@@ -6,6 +6,8 @@
 
 //npm install @clerk/express
 
+//after depolying in vercel you have to change in clerk website domain hotel-booking-mern-backend-rouge.vercel.app/api/clerk
+
 import express from "express";
 import "dotenv/config";
 import cors from "cors";
