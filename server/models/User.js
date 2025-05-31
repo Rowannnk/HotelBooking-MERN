@@ -26,7 +26,7 @@ const userSchema = mongoose.Schema(
     recentSearchCities: [
       {
         type: String,
-        required: true,
+        required: false,
       },
     ],
   },
